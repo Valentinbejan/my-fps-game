@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/item_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "medicine"
+title = "HERBAL MEDICINE"
+description = "Restores 65 health."
+size = Vector2i(1, 1)
+stack_limit = 1
+tint = Color(0.52, 0.78, 0.64, 1)
+model = "res://assets/third_party/doctor-sci3nce/healing-items/health_solution.glb"
+glyph = "MED+"
+model_scale = 1.4

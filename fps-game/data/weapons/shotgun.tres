@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="WeaponDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/weapon_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "shotgun"
+ammo_id = "shells"
+damage = 15.0
+pellets = 8
+spread = 0.07
+interval = 0.8
+magazine = 4
+reload_time = 1.5
+model = "res://assets/models/shotgun_short.glb"
+view_offset = Vector3(0.2, -0.185, -0.478)
+kick = 0.21
+sound = "shotgun"
+pitch = 1.0
+slot = 2

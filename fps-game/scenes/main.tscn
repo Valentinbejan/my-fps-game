@@ -1,0 +1,44 @@
+[gd_scene load_steps=7 format=3]
+
+[ext_resource type="Script" path="res://scripts/main.gd" id="1"]
+[ext_resource type="PackedScene" path="res://scenes/mansion.tscn" id="2"]
+[ext_resource type="Script" path="res://scripts/player.gd" id="3"]
+[ext_resource type="Script" path="res://scripts/ui.gd" id="4"]
+[ext_resource type="Shader" path="res://shaders/retro.gdshader" id="5"]
+
+[sub_resource type="ShaderMaterial" id="RetroMaterial"]
+shader = ExtResource("5")
+
+[node name="BloodKey" type="Node3D"]
+script = ExtResource("1")
+
+[node name="Mansion" parent="." instance=ExtResource("2")]
+
+[node name="Player" type="CharacterBody3D" parent="."]
+position = Vector3(0, 0.1, 5.5)
+script = ExtResource("3")
+
+[node name="Retro" type="CanvasLayer" parent="."]
+layer = 1
+
+[node name="Filter" type="ColorRect" parent="Retro"]
+material = SubResource("RetroMaterial")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="UI" type="CanvasLayer" parent="."]
+layer = 2
+
+[node name="HUD" type="Control" parent="UI"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("4")

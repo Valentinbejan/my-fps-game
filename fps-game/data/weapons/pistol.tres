@@ -1,0 +1,18 @@
+[gd_resource type="Resource" script_class="WeaponDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/weapon_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "pistol"
+ammo_id = "bullets"
+damage = 24.0
+pellets = 1
+spread = 0.003
+interval = 0.24
+magazine = 12
+reload_time = 1.0
+model = "res://assets/models/pistol.glb"
+view_offset = Vector3(0.2, -0.18, -0.49)
+kick = 0.1
+sound = "pistol"
+pitch = 1.0
+slot = 1

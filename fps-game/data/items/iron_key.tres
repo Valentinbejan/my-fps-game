@@ -1,0 +1,13 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/item_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "iron_key"
+title = "IRON CREST"
+description = "A heavy iron crest from the library study. It fits the armory seal north of the library."
+size = Vector2i(1, 2)
+stack_limit = 1
+tint = Color(0.64, 0.72, 0.77, 1)
+model = "res://assets/third_party/mcpato/haunted-parish/rosette.glb"
+glyph = "IRON"
+model_scale = 0.34

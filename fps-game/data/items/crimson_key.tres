@@ -1,0 +1,14 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/item_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "crimson_key"
+title = "CRIMSON CREST"
+description = "A blood-red crest. It opens the eastern ritual hall and the east wing storeroom."
+size = Vector2i(1, 2)
+stack_limit = 1
+tint = Color(0.86, 0.25, 0.2, 1)
+model = "res://assets/third_party/mcpato/haunted-parish/rosette.glb"
+glyph = "BLOOD"
+model_scale = 0.34
+model_tint = Color(1, 0.3, 0.25, 1)

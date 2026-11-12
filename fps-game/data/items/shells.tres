@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/item_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "shells"
+title = "12 GA SHELLS"
+description = "Shotgun ammunition. Stacks of 12."
+size = Vector2i(1, 1)
+stack_limit = 12
+tint = Color(0.75, 0.24, 0.2, 1)
+model = "res://assets/models/ammo_shells.glb"
+glyph = "12GA"

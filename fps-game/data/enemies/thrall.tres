@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="EnemyDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/enemy_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "thrall"
+title = "THE HOLLOW"
+health = 90.0
+speed = 2.0
+damage = 12.0
+attack_interval = 1.7
+model = "res://assets/third_party/elbolilloduro/characters/bloody_servant_0.glb"
+variants = PackedStringArray("res://assets/third_party/elbolilloduro/characters/rotting_brute.glb", "res://assets/third_party/elbolilloduro/characters/bloody_servant_0.glb", "res://assets/third_party/elbolilloduro/characters/bloody_servant_1.glb", "res://assets/third_party/elbolilloduro/characters/bloody_servant_2.glb", "res://assets/third_party/elbolilloduro/characters/bloody_servant_3.glb", "res://assets/third_party/elbolilloduro/characters/bloody_servant_4.glb", "res://assets/third_party/elbolilloduro/characters/bloody_servant_5.glb")

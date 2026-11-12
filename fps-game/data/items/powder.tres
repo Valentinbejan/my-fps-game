@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/item_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "powder"
+title = "BLACK POWDER"
+description = "Craft ammunition: 1 makes 15 x 9mm, 2 make 6 shells, 3 make one flare. Stacks of 3."
+size = Vector2i(1, 1)
+stack_limit = 3
+tint = Color(0.6, 0.55, 0.5, 1)
+model = "res://assets/models/powder.glb"
+glyph = "PWDR"

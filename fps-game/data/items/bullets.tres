@@ -1,0 +1,12 @@
+[gd_resource type="Resource" script_class="ItemDefinition" load_steps=2 format=3]
+[ext_resource type="Script" path="res://scripts/item_definition.gd" id="1"]
+[resource]
+script = ExtResource("1")
+id = "bullets"
+title = "9mm AMMO"
+description = "Pistol ammunition. Stacks of 36."
+size = Vector2i(1, 1)
+stack_limit = 36
+tint = Color(0.8, 0.68, 0.4, 1)
+model = "res://assets/models/ammo_9mm.glb"
+glyph = "9MM"
